@@ -1,0 +1,18 @@
+	Light switch server
+
+HTTP based server running on edison to control
+light switch.
+
+1. Parts
+   1) Jumper wires
+   2) Power siwtch Tail 2 (http://www.adafruit.com/product/268)
+
+2. Connection
+    Connect Jumper wire from pin 5 to in+ and gnd to in- on power switch
+
+3. Run 
+    On edison console run the server as node studylight-server.js
+
+4. Test
+    On computer or smartphone browser type http://<ip address of edison>:1337/
+    Enter ON/on or OFF/off to switch light on/off
